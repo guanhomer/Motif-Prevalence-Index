@@ -1,9 +1,9 @@
 ##Read phylogenetic tree from TimeTree.org
 library(ape)
-tree <- read.tree("../timetree/tree.tre")
+tree <- read.tree("../data/tree.tre")
 
 ##read summary table of motif and species from Cis-BP database
-mot = read.table("motif_vs_species.tsv",sep="\t",header=T,row.names=1)
+mot = read.table("../data/motif_vs_species.tsv",sep="\t",header=T,row.names=1)
 mot = mot[,colnames(mot) %in% tree[[3]]]
 mot = mot[apply(mot,1,sum)>0,apply(mot,2,sum)>138] #remove species with imcomplete data.
 tree = drop.tip(tree,tree[[3]][!tree[[3]]%in%colnames(mot)]) #sync tree and motif data
