@@ -2,13 +2,13 @@
 library(ape)
 tree <- read.tree("../data/tree.tre")
 
-##read summary table of motif and species from Cis-BP database
+##Read summary table of motif and species from Cis-BP database
 mot = read.table("../data/motif_vs_species.tsv",sep="\t",header=T,row.names=1)
 mot = mot[,colnames(mot) %in% tree[[3]]]
 mot = mot[apply(mot,1,sum)>0,apply(mot,2,sum)>138] #remove species with imcomplete data support.
 tree = drop.tip(tree,tree[[3]][!tree[[3]]%in%colnames(mot)]) #sync tree with motif
 
-##calculate MPI
+##Calculate MPI for each motif
 bg = sum(tree$edge.length) #The total branch sum as background
 MPI = vector()
 for (i in 1:nrow(mot))
@@ -23,7 +23,7 @@ for (i in 1:nrow(mot))
 		}
 	}
 
-##output
+##Output
 out = cbind("Motif\tMPI"=MPI,mot)
 rownames(out) = rownames(mot)
 ord = order(out[,1],decreasing=T)
