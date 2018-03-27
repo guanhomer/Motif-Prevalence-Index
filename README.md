@@ -4,7 +4,7 @@ Code for the study, "The borders of cis-regulatory regions harbor the divergent 
 Here, we firstly proposed a novel measurement, Motif Prevalence Index (MPI), to estimate the evolutionary divergence level of TF binding specificities in human. Based on the phylogenetic distance and the existence of a given motif (i.e. having homologous TFs with conserved amino acid sequences of DBD from the Cis-BP database) across metazoan species, MPI represents the divergence level of the human motif in evolution with a score from 0 (human-specific) to 1(common in 74 metazoan species).
 
 # MIT License
-Copyright (c) 2018 Ryan Shun-Yuen Kwan
+Copyright (c) 2018 Jia-Hsin Huang, Ryan Shun-Yuen Kwan, Zing Tsung-Yeh Tsai, Huai-Kuang Tsai
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
