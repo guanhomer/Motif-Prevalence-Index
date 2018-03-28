@@ -15,7 +15,7 @@ Matrix-scan stand-alone software: available on request from http://pedagogix-tag
 Tomtom 4.10.1: http://meme-suite.org/doc/download.html?man_type=web
 
 # Publicly archived data sets
-ChIP-seq data: To download ChIP-seq data, the "Collect_ChIPseq_data.r" script can be run with the input of a metadata (Downloaded_ChIPseq_Accession.tsv) from the ENCODE Consortium https://www.encodeproject.org.
+ChIP-seq data (accessed on 18 Aug 2017): To download ChIP-seq data, the "Collect_ChIPseq_data.r" script can be run with the input of a metadata (Downloaded_ChIPseq_Accession.tsv) from the ENCODE Consortium https://www.encodeproject.org.
 
 Motif-Species association (V1.02): http://cisbp.ccbr.utoronto.ca/entireDownload.php
 
