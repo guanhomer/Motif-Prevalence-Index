@@ -7,8 +7,25 @@ Here, we firstly proposed a novel measurement, Motif Prevalence Index (MPI), to 
 The algorithm was written in R (version 3.3.2) and was tested on a Linux x86_64 system. The R package "Analyses of Phylogenetics and Evolution (version 4.0)" was used for evolutionary tree calculation.
 
 # Instructions for use 
-To generate Motif Prevalence Index (MPI.csv), the MPI.r script can be run with inputs of the Motif-Species association (motif_vs_species.tsv) from Cis-BP and the phylogenetics tree (tree.tre) from TimeTree.
-To download ChIP-seq data, the Collect_ChIPseq_data.r script can be run with the input of a metadata (Downloaded_ChIPseq_Accession.tsv) from the ENCODE Consortium.
+To generate Motif Prevalence Index (MPI.csv), the "MPI.r" script can be run with inputs of the Motif-Species association (motif_vs_species.tsv) from Cis-BP and the phylogenetics tree (tree.tre) from TimeTree.
+
+# Data analysis tools
+Matrix-scan stand-alone software: available on request from http://pedagogix-tagc.univ-mrs.fr/rsat/download-request_form.cgi
+
+Tomtom 4.10.1: http://meme-suite.org/doc/download.html?man_type=web
+
+# Publicly archived data sets
+ChIP-seq data: To download ChIP-seq data, the "Collect_ChIPseq_data.r" script can be run with the input of a metadata (Downloaded_ChIPseq_Accession.tsv) from the ENCODE Consortium https://www.encodeproject.org.
+
+Motif-Species association (V1.02): http://cisbp.ccbr.utoronto.ca/entireDownload.php
+
+Phylogenetics tree: http://www.timetree.org
+
+Human genome (GRCh37): https://www.ensembl.org/biomart/martview
+
+Jaspar motifs: http://jaspar.genereg.net/download/CORE/JASPAR2018_CORE_non-redundant_pfms_jaspar.txt
+
+DNase I hypersensitive site (DHS clusters V3) and PhastCons scores (phastCons100way): https://genome.ucsc.edu/cgi-bin/hgTables
 
 # MIT License
 Copyright (c) 2018 Jia-Hsin Huang, Ryan Shun-Yuen Kwan, Zing Tsung-Yeh Tsai, Huai-Kuang Tsai
