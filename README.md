@@ -9,7 +9,7 @@ The algorithm was written in R (version 3.3.2) and was tested on a Linux x86_64 
 # Instructions for use 
 To generate Motif Prevalence Index (MPI.csv), the "MPI.r" script can be run with inputs of the Motif-Species association (motif_vs_species.tsv) from Cis-BP and the phylogenetics tree (tree.tre) from TimeTree.
 
-# Data analysis tools
+# Other data analysis tools
 Matrix-scan stand-alone software: available on request from http://pedagogix-tagc.univ-mrs.fr/rsat/download-request_form.cgi
 
 Tomtom 4.10.1: http://meme-suite.org/doc/download.html?man_type=web
@@ -19,11 +19,11 @@ ChIP-seq data: To download ChIP-seq data, the "Collect_ChIPseq_data.r" script ca
 
 Motif-Species association (V1.02): http://cisbp.ccbr.utoronto.ca/entireDownload.php
 
-Phylogenetics tree: http://www.timetree.org
+Phylogenetics tree (accessed on 19 Aug 2016): http://www.timetree.org
 
 Human genome (GRCh37): https://www.ensembl.org/biomart/martview
 
-Jaspar motifs: http://jaspar.genereg.net/download/CORE/JASPAR2018_CORE_non-redundant_pfms_jaspar.txt
+Jaspar (2016) motifs: http://jaspar2016.genereg.net/html/DOWNLOAD/JASPAR_CORE/pfm/redundant/pfm_all.txt
 
 DNase I hypersensitive site (DHS clusters V3) and PhastCons scores (phastCons100way): https://genome.ucsc.edu/cgi-bin/hgTables
 
