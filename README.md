@@ -8,7 +8,7 @@ The algorithm was written in R (version 3.3.2) and was tested on a Linux x86_64 
 
 # Instructions for use 
 To generate Motif Prevalence Index (MPI.csv), the MPI.r script can be run with inputs of the Motif-Species association (motif_vs_species.tsv) from Cis-BP and the phylogenetics tree (tree.tre) from TimeTree.
-To download ChIP-seq data, the Collect_ChIPseq_data.r script can be run with the input of a metadata (Downloaded_ChIPseq_Accession.tsv) accquired from the ENCODE Consortium.
+To download ChIP-seq data, the Collect_ChIPseq_data.r script can be run with the input of a metadata (Downloaded_ChIPseq_Accession.tsv) from the ENCODE Consortium.
 
 # MIT License
 Copyright (c) 2018 Jia-Hsin Huang, Ryan Shun-Yuen Kwan, Zing Tsung-Yeh Tsai, Huai-Kuang Tsai
