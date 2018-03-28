@@ -27,6 +27,13 @@ Jaspar (2016) motifs: http://jaspar2016.genereg.net/html/DOWNLOAD/JASPAR_CORE/pf
 
 DNase I hypersensitive site (DHS clusters V3) and PhastCons scores (phastCons100way): https://genome.ucsc.edu/cgi-bin/hgTables
 
+Enhancer regions (phase 1 and 2): http://fantom.gsc.riken.jp/5/datafiles/latest/extra/Enhancers/human_permissive_enhancers_phase_1_and_2.bed.gz
+
+Gene age: Yin et al. What Signatures Dominantly Associate with Gene Age? Genome Biol. Evol.8, 3083–3089 (2016). 
+In this study, we defined six gene age categorys. Category one (Primate) denoted youngest genes from age classes 1 to 7; category two (Mammalia) denoted genes from age classes 8 to 13; category three (Vertabrata) denoted genes from age classes 14 to 17; category four (Metazoan) denoted genes from age classes 18 to 22; and category five (Eukaryota) denoted genes from age classes 23 to 25; and category six (Cellular organisms) denoted the oldest genes of age class 26.
+
+Pioneer TFs: Vernimmen et al. 2015. The Hierarchy of Transcriptional Activation: From Enhancer to Promoter. Trends Genet. 31:696–708.
+
 # MIT License
 Copyright (c) 2018 Jia-Hsin Huang, Ryan Shun-Yuen Kwan, Zing Tsung-Yeh Tsai, Huai-Kuang Tsai
 
